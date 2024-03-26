@@ -36,7 +36,7 @@ function AdSportCard({data}:{data:Ad}) {
                 }
             </h1>
             <p 
-            className=' text-ellipsis line-clamp-6 medium:line-clamp-5 dark:text-gray-200'
+            className=' text-ellipsis line-clamp-6 medium:line-clamp-5 text-gray-500 dark:text-gray-400'
             title={data.description}
             >
                 {
