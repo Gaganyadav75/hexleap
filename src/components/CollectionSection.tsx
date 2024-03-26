@@ -16,11 +16,7 @@ function CollectionSection() {
       if (param.to=="left" && scind>1) {
          scind = scrollIndex-1
       }else if (param.to=="right" && scind<collectionData.length) {
-        if (scind<3) {
-            scind = 4;
-        }else{
             scind = scrollIndex+1
-        }
       }
   
       let anker = document.createElement("a");
@@ -62,7 +58,7 @@ function CollectionSection() {
         ">
             <div 
             onClick={()=>ScrollHandler({to:"left"})} 
-            className="grid place-items-center absolute left-0 w-10 h-14 top-1/2 -translate-y-1/2 dark:collection-gradient-color border-blue-500 border"
+            className=" z-10 grid place-items-center absolute left-0 w-10 h-14 top-1/2 -translate-y-1/2 dark:collection-gradient-color border-blue-500 border"
             >
                 <span 
                 className=" scale-125 scale-y-150 text-blue-400 font-bold select-none"
@@ -81,7 +77,7 @@ function CollectionSection() {
 
             <div 
             onClick={()=>ScrollHandler({to:"right"})} 
-            className="grid place-items-center absolute right-0 w-10 h-14 top-1/2 -translate-y-1/2 dark:collection-gradient-color border-blue-500 border"
+            className=" z-10 grid place-items-center absolute right-0 w-10 h-14 top-1/2 -translate-y-1/2 dark:collection-gradient-color border-blue-500 border"
             >
                 <span 
                 className=" scale-125 scale-y-150 text-blue-400 font-bold select-none"
