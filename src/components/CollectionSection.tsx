@@ -31,7 +31,7 @@ function CollectionSection() {
 
   return (
     <div 
-    className="w-full px-0 large:px-36 py-24 bg-[#F7F7F8] dark:collection-gradient-color"
+    className="child:inter-heading  w-full large:px-20 px-[15%] py-24 bg-[#F7F7F8] dark:collection-gradient-color"
     >
     <div 
     className="flex w-full flex-col"
@@ -45,7 +45,7 @@ function CollectionSection() {
                 Collection Spotlight
             </h1>
             <p 
-            className="text-center mt-2 small:text-xs dark:text-white"
+            className="text-center mt-2 small:text-xs dark:text-white px-5"
             >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere beatae recusandae sunt porro, enim atque perferendis quod repudiandae asperiores dolor, quasi magni voluptatem.
             </p>
@@ -54,7 +54,7 @@ function CollectionSection() {
       {/* {cards div of collection} */}
 
         <div 
-        className="relative small:px-[5%] medium:px-[10%] large:px-[15%]
+        className="relative small:px-[20%] medium:px-[10%] large:px-[15%]
         ">
             <div 
             onClick={()=>ScrollHandler({to:"left"})} 

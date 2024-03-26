@@ -40,10 +40,10 @@ function CollectionCard({data}:{data:Collection}) {
         </div>
 
         <div 
-        className='m-2 gap-1 w-full flex flex-col justify-between items-center child:text-center'
+        className='m-1 gap-1 w-[calc(100%-0.5rem)] flex flex-col justify-between items-center child:text-center child:w-[calc(100%-3rem)]'
         >
             <h3 
-            className='large:text-lg text-sm font-bold dark:text-white'
+            className='large:text-lg text-xs font-bold dark:text-white'
             >
               {
               data.title
@@ -51,7 +51,7 @@ function CollectionCard({data}:{data:Collection}) {
             </h3>
 
             <h4 
-            className='large:text-sm text-xs dark:text-gray-50'
+            className='large:text-sm text-[0.55rem] dark:text-gray-50'
             >
               {
               data.time
@@ -67,7 +67,7 @@ function CollectionCard({data}:{data:Collection}) {
             </p>
 
             <button 
-            className='bg-black-button-color text-white px-6 py-1 large:text-sm text-xs '
+            className='bg-black-button-color text-white px-6 py-2 large:text-sm text-xs '
             >{
             data.button
             }

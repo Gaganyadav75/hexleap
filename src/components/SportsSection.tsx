@@ -27,7 +27,7 @@ function SportsSection() {
 
   return (
     <div 
-    className="flex flex-col gap-2 w-full px-10"
+    className="child:inter-heading flex flex-col gap-2 w-full px-10 small:px-[20%]"
     >
     <div 
     className="flex justify-start"
@@ -42,7 +42,7 @@ function SportsSection() {
     {/* large:grid-cols-5 medium:grid-cols-3 small:grid-cols-1  */}
 
     <div 
-    className={`sports-card-container flex overflow-x-hidden grid-flow-col items-stretch content-stretch flex-wrap large:auto-cols-[calc(100%/5-0.75rem)] medium:auto-cols-[calc(100%/3-0.75rem)] small:auto-cols-[calc(100%-0.75rem)] relative gap-3 py-4 `}
+    className={`child:inter-heading sports-card-container flex overflow-x-hidden grid-flow-col items-stretch content-stretch flex-wrap large:auto-cols-[calc(100%/5-0.75rem)] medium:auto-cols-[calc(100%/3-0.75rem)] small:auto-cols-[calc(100%-0.75rem)] relative gap-3 py-4 `}
     >
 
       {
