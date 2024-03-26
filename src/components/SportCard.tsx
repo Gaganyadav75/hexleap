@@ -13,14 +13,11 @@ function SportCard({data}:{data:Sport}) {
         <div 
         className="w-full aspect-[9/14] img overflow-hidden"
         >
-            <Image 
+            <img 
             src={data.image} 
             alt="#" 
-            width={200}
-            height={300}
             loading='lazy'
             className=' w-full'
-            placeholder='empty'
             />
         </div>
 

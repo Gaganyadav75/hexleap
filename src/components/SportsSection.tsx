@@ -65,7 +65,9 @@ function SportsSection() {
             onClick={SeeMoreHandler} 
             className="text-sm text-white bg-buttom-primary-color px-4 py-2 rounded-sm"
             >
-              See More 
+              {
+              seeMore?"See Less":"See More"
+              }
             </button>
           </span>
     </div>
