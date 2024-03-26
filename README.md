@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project README
 
-## Getting Started
+## HexLeap Internship Assignment
 
-First, run the development server:
+This project is a submission for the internship application at HexLeap. It consists of two sections: Sports and Collection. The project is deployed using Next.js and hosted on Vercel with the domain [hexleap-assignment-two.vercel.app](https://hexleap-assignment-two.vercel.app/).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Sections
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Sports:** This section provides information about various sports. Users can explore different sports, view their details, and learn more about their rules, history, and notable players.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Collection:** In this section, users can view a collection of items. Each item has its own details, including images, descriptions, and other relevant information.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Technologies Used
 
-## Learn More
+- **Next.js:** Next.js is a React framework that enables server-side rendering, static site generation, and more, providing a fast and efficient development experience.
+- **Vercel:** Vercel is a cloud platform for static sites and Serverless Functions, which seamlessly integrates with Next.js for deployment and hosting.
+- **React:** React is a JavaScript library for building user interfaces, which is utilized in this project for creating dynamic and interactive components.
+- **HTML/CSS:** Standard web technologies are used for structuring the content and styling the project.
+- **JavaScript:** JavaScript is used for implementing client-side interactivity and logic.
+- **APIs:** External APIs may be utilized to fetch data related to sports and collection items, enhancing the content and user experience.
 
-To learn more about Next.js, take a look at the following resources:
+### Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To access the project, simply visit [hexleap-assignment-two.vercel.app](https://hexleap-assignment-two.vercel.app/) in your web browser. From there, you can navigate through the different sections and explore the content provided.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Contributing
 
-## Deploy on Vercel
+This project was created as an assignment for the internship application and is not currently open to external contributions. However, feedback is always welcome and can be submitted through the contact information provided in the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any inquiries or further information, please feel free to reach out to the project owner:
+
+- **Name:** Gagan Yadav
+- **Email:** 7549Gaganyadav@gmail.com
+- **LinkedIn:** linkedin.com/in/gagan-yadav-53a0772a1
+
+### License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to fork the project and modify it according to your needs.
